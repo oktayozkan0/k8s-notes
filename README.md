@@ -1,6 +1,3 @@
-# k8s-notes
- my k8s notes
-
 # Layers of Abstraction
 - Deployment manages a...
 - Replicaset manages a...
@@ -15,5 +12,10 @@ Available components:
 - Create - kubectl create [component] [name]
 - Edit - kubectl edit [component] [name]
 
-# Status of different K8s components
-- Debugging Pods - kubectl logs [Pod Name]
+# Debugging pods
+- Pod Logs - kubectl logs [pod_name]
+- Get Interactive Terminal - kubectl exec -it [pod_name] -- bin/bash
+- Get Info About Pod - kubectl describe pod [pod_name]
+# Use Config File
+- Apply a config file - kubectl apply -f [file_name]
+- Delete a config file - kubectl delete -f [file_name]
