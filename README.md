@@ -7,6 +7,7 @@ Available components:
 - deployment
 - replicaset
 - pod
+- service
 ## CRUDS
 - Get - kubectl get [component] // returns all pods
 - Create - kubectl create [component] [name]
